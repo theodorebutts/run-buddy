@@ -4,9 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Run Buddy</title>
-
     </head>
-    
     <body>
     
         <!--nav-->
@@ -14,55 +12,78 @@
             <h1>
                 <a href ="/">RUN BUDDY</a>
             </h1>
-
             <nav>
                 <ul>
                     <li>
                         <a href="#what-we-do">What We Do</a>
                     </li>
-
                     <li>
                         <a href="#what-you-do">What You Do</a>
                     </li>
-
                     <li>
                         <a href="#your-trainers">Your Trainers</a>
                     </li>
-                    
                     <li>
                         <a href="#reach-out">Reach Out</a>
                     </li>
-                    
                 </ul>
-
             </nav>
 
         </header>
         
         <!--hero-->
-        <section>
-
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form an done of our trainers will schedule a consult</p>
+                <form>
+                    <label for="name">Enter Full Name:</label>
+                        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                    <br/>
+                    <label for="email">Enter Email Address:</label>
+                        <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                    <br/>
+                    <label for="phone">Enter a Telephone Number:</label>
+                        <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                    <p>Have you worked out with a trainer before?
+                        <input type="radio" id="trainer-yes" name="trainer-confirm" />
+                            <label for="trainer-yes">Yes</label>
+                        <input type="radio" id="trainer-no" name="trainer-confirm" />
+                            <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
+                            <input type="checkbox" id="checkbox" name="age-confirm" />
+                    </p>
+                    <button type="submit">Go Running</button>
+                </form>
+            </div>
         </section>
+        <!--end hero-->
 
-        <!--"what we do" -->
+        <!--what we do-->
         <section>
             <h2>What We Do</h2>
         </section>
+        <!--what we do end-->
 
-        <!--"what you do" -->
+        <!--what you do-->
         <section>
             <h2>What You Do</h2>
         </section>
+        <!--what you do end-->
         
-        <!--"meet the trianers"-->
+        <!--meet the trianers-->
         <section>
             <h2>Meet The Trainers</h2>
         </section>
+        <!--meet the trainers end-->
 
-        <!--"reach out"-->
+        <!--reach out-->
         <section>
             <h2>Reach Out</h2>
         </section>
+        <!--reach out end-->
 
         <!--footer-->
         <footer>
